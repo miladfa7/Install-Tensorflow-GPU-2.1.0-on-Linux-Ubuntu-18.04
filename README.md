@@ -9,10 +9,10 @@ Python installed (Install Python 3.4+)<br>
 Install Python and the TensorFlow package dependencies
 ```(https://www.tensorflow.org/install/source) ✔️ ```
 
-Tested build configurationsDownload Build Tools ( Bazel 0.26.1)<br>
-https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-installer-linux-x86_64.sh<br>
-Download Compiler (GCC 7.3.1)
-https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz ) <br>
+Tested build configurationsDownload Build Tools<br>
+[Download Bazel 0.26.1](https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-installer-linux-x86_64.sh).<br>
+Download Compiler GCC 7.3.1
+[GCC 7.3.1](https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz).  <br>
 
 ### Overview <br>
 Step 1: Update your GPU driver (should be higher than version 390)<br>
