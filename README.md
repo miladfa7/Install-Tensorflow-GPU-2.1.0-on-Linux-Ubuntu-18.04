@@ -15,11 +15,11 @@ Download Compiler GCC 7.3.1
 [GCC 7.3.1](https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz).  <br>
 
 ### Overview <br>
-Step 1: Update your GPU driver (should be higher than version 390)<br>
-Step 2: Install the CUDA Toolkit version 10.0<br>
-Step 3: Install CUDNN 7.6.5<br>
-Step 4: Install Tensorflow GPU 2.0v with pip<br>
-Step 5: Test Run GPU<br>
+Step 1: Update your GPU driver (should be higher than version 390)
+Step 2: Install the CUDA Toolkit version 10.0
+Step 3: Install CUDNN 7.6.5
+Step 4: Install Tensorflow GPU 2.0v with pip
+Step 5: Test Run GPU
 <br>
 ### Step 1: Update your GPU driver <br>
 ```
@@ -28,7 +28,7 @@ sudo add-apt-repository ppa:graphics-drivers/ppa<br>
 sudo apt update<br>
 sudo apt install nvidia-390 or higher version<br>
 ```
-<b>Reboot<b> your computer. To verify the installation, open a terminal and run the following command<br>
+<b>Reboot</b> your computer. To verify the installation, open a terminal and run the following command<br>
 
 ```nvidia-smi```
 The output should show the GPU name and the driver.
