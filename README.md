@@ -5,13 +5,22 @@ Easily Install Tensorflow-GPU 2.0 on Linux Ubuntu 18.04 -Cuda 10 &amp; Cudnn 7.
 An NVIDIA GPU with a compute capability of 3.0 or higher<br>
 Python installed (Install Python 3.4+)<br>
 
-```sudo apt install python3-pip```
-Install Python and the TensorFlow package dependencies
+```
+   sudo add-apt-repository ppa:jonathonf/python-3.6
+   sudo apt-get update
+   sudo apt-get install python3.6
+```
+Install Pip3 <br>
+```sudo apt install python3-pip```<br>
+
+Install Python and the TensorFlow package dependencies<br>
 ```(https://www.tensorflow.org/install/source) ✔️ ```
 
-Tested build configurationsDownload Build Tools<br>
-[Download Bazel 0.26.1](https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-installer-linux-x86_64.sh).<br>
-Download Compiler GCC 7.3.1
+<img src = 'https://miro.medium.com/max/1809/1*anNVCRsxyx-GJWBHeW6ThQ.png' width= 600 alt='install pakage'></img> <br>
+
+Tested build configurationsDownload Build Tools: 
+[Download Bazel 0.26.1](https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-installer-linux-x86_64.sh).
+Download Compiler GCC 7.3.1: 
 [GCC 7.3.1](https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz).  <br>
 
 ### Overview <br>
@@ -101,4 +110,7 @@ tf.test.is_gpu_available(
 )
 ```
 if the output was True then everything OK!<br>
+<img src='https://miro.medium.com/max/2066/1*g3cN7zze0AmXzOdRSAtYXg.png' width=650 alt='tensorflow gpu'></img> <br>
+
 References:
+https://medium.com/@m_farzalizadeh/easily-install-tensorflow-gpu-2-0-on-linux-ubuntu-18-04-cuda-10-cudnn-7-6-5-1ecb354e68bc
