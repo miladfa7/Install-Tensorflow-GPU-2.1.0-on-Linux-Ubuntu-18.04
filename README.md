@@ -6,20 +6,22 @@ An NVIDIA GPU with a compute capability of 3.0 or higher<br>
 Python installed (Install Python 3.4+)<br>
 
 ```
-   sudo add-apt-repository ppa:jonathonf/python-3.6
-   sudo apt-get update
-   sudo apt-get install python3.6
+sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo apt-get update
+sudo apt-get install python3.6
 ```
 Install Pip3 <br>
 ```sudo apt install python3-pip```<br>
 
 Install Python and the TensorFlow package dependencies<br>
+
 ```(https://www.tensorflow.org/install/source) ✔️ ```
 
 <img src = 'https://miro.medium.com/max/1809/1*anNVCRsxyx-GJWBHeW6ThQ.png' width= 600 alt='install pakage'></img> <br>
 
 Tested build configurationsDownload Build Tools: 
-[Download Bazel 0.26.1](https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-installer-linux-x86_64.sh).
+[Download Bazel 0.26.1](https://github.com/bazelbuild/bazel/releases/download/0.26.1/bazel-0.26.1-installer-linux-x86_64.sh).<br>
+
 Download Compiler GCC 7.3.1: 
 [GCC 7.3.1](https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz).  <br>
 
@@ -30,12 +32,13 @@ Step 3: Install CUDNN 7.6.5
 Step 4: Install Tensorflow GPU 2.0v with pip
 Step 5: Test Run GPU
 <br>
+
 ### Step 1: Update your GPU driver <br>
-```
 Open a terminal and run the following 3 commands<br>
-sudo add-apt-repository ppa:graphics-drivers/ppa<br>
-sudo apt update<br>
-sudo apt install nvidia-390 or higher version<br>
+```
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt install nvidia-390 or higher version
 ```
 <b>Reboot</b> your computer. To verify the installation, open a terminal and run the following command<br>
 
@@ -112,5 +115,5 @@ tf.test.is_gpu_available(
 if the output was True then everything OK!<br>
 <img src='https://miro.medium.com/max/2066/1*g3cN7zze0AmXzOdRSAtYXg.png' width=650 alt='tensorflow gpu'></img> <br>
 
-References:
+References:<br>
 https://medium.com/@m_farzalizadeh/easily-install-tensorflow-gpu-2-0-on-linux-ubuntu-18-04-cuda-10-cudnn-7-6-5-1ecb354e68bc
