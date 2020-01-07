@@ -74,7 +74,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda 10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 
 go to https://developer.nvidia.com/cudnn<br>
 Select CUDNN 7.6.5 for CUDA 10.0<br>
-download the cuDNN v7.6.5 Library for Linux (Download with Link)<br>
+download the cuDNN v7.6.5 Library for Linux (Download with [Link](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/7.6.5.32/Production/10.0_20191031/cudnn-10.0-linux-x64-v7.6.5.32.tgz).)<br>
 open a terminal in the directory the tar file is located<br>
 unzip the tar file using the command<br>
 ```
