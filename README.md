@@ -26,11 +26,11 @@ Download Compiler GCC 7.3.1:
 [GCC 7.3.1](https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz).  <br>
 
 ### Overview <br>
-Step 1: Update your GPU driver (should be higher than version 390)
-Step 2: Install the CUDA Toolkit version 10.0
-Step 3: Install CUDNN 7.6.5
-Step 4: Install Tensorflow GPU 2.0v with pip
-Step 5: Test Run GPU
+<b>Step 1:</b> Update your GPU driver (should be higher than version 390)<br>
+<b>Step 2:</b> Install the CUDA Toolkit version 10.0<br>
+<b>Step 3:</b> Install CUDNN 7.6.5<br>
+<b>Step 4:</b> Install Tensorflow GPU 2.0v with pip<br>
+<b>Step 5:</b> Test Run GPU<br>
 <br>
 
 ### Step 1: Update your GPU driver <br>
