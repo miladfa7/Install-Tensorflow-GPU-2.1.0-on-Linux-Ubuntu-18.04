@@ -43,8 +43,10 @@ sudo apt install nvidia-390 or higher version
 <b>Reboot</b> your computer. To verify the installation, open a terminal and run the following command<br>
 
 ```nvidia-smi```
-The output should show the GPU name and the driver.
-show the GPU name and the driverStep 2: Install the CUDA Toolkit (10.0)
+The output should show the GPU name and the driver.show the GPU name and the driver
+
+### Step 2: Install the CUDA Toolkit (10.0) <br>
+
 CUDA Toolkit Archive " https://developer.nvidia.com/cuda-toolkit-archive"
 go to https://developer.nvidia.com/cuda-10.0-download-archive and download the toolkit for Linux, x86_64, ubuntu, 18.04, deb(local)
 once the download is complete, open a terminal in the directory the base installer is and run the following commands
@@ -58,15 +60,18 @@ sudo apt-get install cuda
  
 download patch 1 and install (you should get a prompt to install once its done downloading)<br>
 download patch 2 and install (you should get a prompt to install once its done downloading)<br>
+
 open your .bashrc file with nano<br>
 
-sudo nano ~/.bashrc<br>
+``` sudo nano ~/.bashrc```
+
 go to the last line and add the following lines (this will set your PATH variable)<br>
 ```
 export PATH=/usr/local/cuda-10.0/bin${PATH:+:$PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda 10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
-Step 3: Install CUDNN 7.6.5<br>
+### Step 3: Install CUDNN 7.6.5<br>
+
 go to https://developer.nvidia.com/cudnn<br>
 Select CUDNN 7.6.5 for CUDA 10.0<br>
 download the cuDNN v7.6.5 Library for Linux (Download with Link)<br>
@@ -81,7 +86,8 @@ sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 ```
-Step 4: pip install TensorFlow-GPU 2.0<br>
+### Step 4: pip install TensorFlow-GPU 2.0 <br>
+
 I will be using a conda environment for installing TensorFlow<br>
 create a conda environment by using the following command<br>
 ```
@@ -103,7 +109,7 @@ install TensorFlow-GPU 2.0 with pip3 <br>
 ```
 sudo pip3 install tensorflow-gpu==2.0.0
 ```
-Step 5: Test it! <br>
+### Step 5: Test it! <br>
 
 ```
 import tensorflow as tf
