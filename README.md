@@ -5,10 +5,15 @@ Easily Install Tensorflow-GPU 2.0 on Linux Ubuntu 18.04 -Cuda 10 &amp; Cudnn 7.
 An NVIDIA GPU with a compute capability of 3.0 or higher<br>
 Python installed (Install Python 3.4+)<br>
 
+<b>option1:</b> 
+Install Python 3 From Source Code. ---> [Link](https://gist.github.com/jerblack/798718c1910ccdd4ede92481229043be).<br>
+
+<b>option2:</b> Install Python 3 Using apt (Easier)
+
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo add-apt-repository ppa:jonathonf/python-3.7
 sudo apt-get update
-sudo apt-get install python3.6
+sudo apt-get install python3.7
 ```
 Install Pip3 <br>
 ```sudo apt install python3-pip```<br>
