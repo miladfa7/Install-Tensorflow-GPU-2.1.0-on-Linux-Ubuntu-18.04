@@ -1,4 +1,4 @@
-# Install-Tensorflow-GPU-2.0-on-Linux-Ubuntu-18.04<br>
+# Install-Tensorflow-GPU-2.1.0-on-Linux-Ubuntu-18.04<br>
 Easily Install Tensorflow-GPU 2.0 on Linux Ubuntu 18.04 -Cuda 10 &amp; Cudnn 7.6.5<br>
 
 ### Requirements: <br>
