@@ -44,6 +44,7 @@ Open a terminal and run the following 3 commands<br>
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 sudo apt install nvidia-390 or higher version
+sudo apt install nvidia-cuda-toolkit
 ```
 <b>Reboot</b> your computer. To verify the installation, open a terminal and run the following command<br>
 
